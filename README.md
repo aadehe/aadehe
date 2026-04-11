@@ -1,3 +1,25 @@
+![Albert ADEHE]()
+## More about me
+```kotlin
+val aadehe = developer {
+    about {
+        name = "Albert ADEHE"
+        company = BOA
+        role = Systems Engineer
+    }
+    tech("Kotlin", "Ktor", "Android")
+    links {
+        x.com = "@aadehe"
+        youtube = ""
+        linkedlnProfile = ""
+        slides = ""
+    }
+}
+```
+
+
+
+
 ## Hi there 👋
 
 <!--
