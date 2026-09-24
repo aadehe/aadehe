@@ -1,6 +1,6 @@
 # Albert ADEHE
 
-**Senior DevOps Engineer** · Backend Engineer · Systems Engineer
+**DevOps Engineer** · Backend Engineer · Systems Engineer
 
 I design and operate the infrastructure and pipelines that keep services reliable,
 secure, and shipping fast — and I build the services themselves when needed. My
