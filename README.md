@@ -1,89 +1,216 @@
 # Albert ADEHE
 
-**DevOps Engineer** · Backend Engineer · Systems Engineer
+**Senior DevOps Engineer · Backend Engineering · Cloud-Native Systems**
 
-I design and operate the infrastructure and pipelines that keep services reliable,
-secure, and shipping fast — and I build the services themselves when needed. My
-focus is on Infrastructure as Code, CI/CD automation, container orchestration, and
-observability, with a solid backend engineering foundation (APIs, authentication,
-data modeling) that lets me bridge the gap between application code and the
-platforms it runs on.
+I am a systems and DevOps engineer focused on designing, building, and operating reliable technology platforms and backend systems.
 
----
+My engineering background spans infrastructure, cloud computing, virtualization, storage, networking, security, and datacenter operations. I am expanding that foundation into modern cloud-native and backend engineering, with a focus on automation, distributed systems, reliability, and production-ready software delivery.
 
-## Core Competencies
-
-**DevOps & Platform Engineering**
-- CI/CD pipeline design and automation (GitHub Actions, Jenkins)
-- Infrastructure as Code (Terraform, Ansible)
-- Containerization and orchestration (Docker, Kubernetes, Helm)
-- Cloud platforms — AWS (primary), with working knowledge of GCP/Azure
-- GitOps deployment workflows (Argo CD / Flux)
-- Observability: Prometheus, Grafana, centralized logging (ELK/Loki)
-
-**Backend Engineering**
-- RESTful API design and development — Kotlin (Ktor) and Python (Django REST)
-- Authentication & authorization (JWT, OAuth2, role-based access control)
-- Database design and optimization (PostgreSQL, Exposed, SQLAlchemy, Redis)
-- Testing strategy: unit, integration, and contract tests (JUnit 5, Pytest)
-
-**Engineering Practices**
-- Infrastructure security: secrets management, vulnerability scanning (Trivy), least-privilege IAM
-- Configuration management and environment parity (dev / staging / prod)
-- Documentation-as-code, code review, and trunk-based development
+I enjoy working at the intersection of **infrastructure and application engineering** — turning business requirements into secure, scalable, observable, and maintainable technology solutions.
 
 ---
 
-## Tech Stack
+## What I Build
 
-| Domain | Tools & Technologies |
-|---|---|
-| Cloud & Infrastructure | AWS (EC2, VPC, RDS, EKS, S3, IAM), Terraform, Ansible |
-| CI/CD & Automation | GitHub Actions, Jenkins, Argo CD, Docker, Kubernetes, Helm |
-| Observability | Prometheus, Grafana, Alertmanager, ELK / Loki |
-| Languages | Kotlin, Python, Bash, SQL |
-| Backend | Ktor, Django REST Framework, JWT, PostgreSQL, Redis, Celery |
-| Security | Trivy, SonarQube, secrets management, RBAC |
+- Cloud-native platforms and infrastructure
+- Backend services and REST APIs
+- Event-driven and distributed systems
+- Infrastructure as Code and automated environments
+- CI/CD pipelines and deployment automation
+- Containerized applications and Kubernetes platforms
+- Reliable systems with strong observability and failure-handling strategies
+- Secure platforms following least-privilege and defense-in-depth principles
 
 ---
 
-## Featured Projects
+## Core Engineering Areas
 
-### Infrastructure & DevOps
+### DevOps & Platform Engineering
 
-| Project | Description |
-|---|---|
-| **[airbnb-backend](https://github.com/aadehe/airbnb-backend)** | Production-style booking platform backend (Kotlin/Ktor) with Docker-based local environment, automated testing, and CI/CD pipeline — demonstrates end-to-end delivery: from commit to deployable container. |
-| **CI/CD & Infrastructure work** | &lt;!-- TODO: add links to IaC repositories, pipeline configs, or Kubernetes manifests --&gt; |
+- Cloud infrastructure and platform engineering
+- Infrastructure as Code
+- CI/CD automation
+- Containerization and orchestration
+- Kubernetes platform engineering
+- Environment standardization and automation
+- Deployment and release engineering
 
 ### Backend Engineering
 
-| Project | Description |
-|---|---|
-| **[airbnb-clone-project](https://github.com/aadehe/airbnb-clone-project)** | Full-stack booking platform (Python/Django REST, PostgreSQL, Redis, Celery) — system design, RBAC, and deployment workflow design. |
-| **[sms](https://github.com/aadehe/sms)** | SMS notification service — &lt;!-- TODO: one-line description --&gt; |
-| **[social](https://github.com/aadehe/social)** | &lt;!-- TODO: one-line description --&gt; |
+- Kotlin / Ktor
+- Python / Django REST Framework
+- REST API design
+- Domain-driven and clean architecture principles
+- Relational database design
+- Authentication and authorization
+- Distributed and event-driven application design
+
+### Cloud & Infrastructure
+
+- AWS
+- Linux systems
+- Networking
+- Virtualization
+- Storage
+- Infrastructure automation
+- High-availability and resilient infrastructure design
+
+### Reliability, Security & Operations
+
+- Observability and monitoring
+- Structured logging and metrics
+- Health and readiness engineering
+- Failure handling and recovery
+- Secrets and access management
+- Vulnerability management
+- Operational automation
 
 ---
 
-## How I Work
+## Technology Stack
 
-1. **Automate everything repeatable.** If a human does it twice, it becomes code.
-2. **Infrastructure is a product.** Versioned, reviewed, tested, and documented like application code.
-3. **Design for failure.** Observability, rollback paths, and least privilege are defaults, not afterthoughts.
-4. **Small, frequent, reversible changes.** Trunk-based development with automated gates.
+| Area | Technologies |
+|---|---|
+| **Cloud** | AWS |
+| **Infrastructure** | Terraform, Ansible, Linux |
+| **Containers & Orchestration** | Docker, Kubernetes, Helm |
+| **CI/CD** | GitHub Actions, Jenkins |
+| **Backend** | Kotlin, Ktor, Python, Django REST Framework |
+| **Databases** | PostgreSQL, Redis |
+| **Messaging & Distributed Systems** | Event-driven architecture, message brokers, asynchronous processing |
+| **Observability** | Prometheus, Grafana, centralized logging, distributed tracing |
+| **Security** | IAM, RBAC, secrets management, vulnerability scanning |
+| **Engineering** | REST APIs, Clean Architecture, DDD, automated testing, Git |
+
+---
+
+## Featured Engineering Projects
+
+### Enterprise Notification Platform
+
+**Flagship backend and distributed-systems project**
+
+An enterprise notification platform designed to provide reliable, scalable, and observable notification delivery across multiple communication channels.
+
+The platform is being engineered around:
+
+- Kotlin and Ktor
+- Clean and domain-oriented architecture
+- REST APIs
+- PostgreSQL
+- Event-driven processing
+- Asynchronous workflows
+- Notification templates
+- Idempotent processing
+- Retry and failure-handling strategies
+- Dead-letter processing
+- Provider abstraction and failover
+- Delivery tracking
+- Auditability
+- Security and access control
+- Observability
+- Containerized deployment
+- CI/CD
+- Kubernetes and cloud-native deployment
+
+The project is being developed incrementally, with architecture and implementation evolving together.
+
+**Repository:** [Enterprise Notification Platform](https://github.com/aadehe/smsafrik) *(repository rename in progress)*
+
+---
+
+### Airbnb Backend
+
+**Backend engineering and API development**
+
+A backend implementation focused on designing the core services and data model required for a property booking platform.
+
+Areas demonstrated include:
+
+- Backend API development
+- Domain and data modelling
+- Authentication and authorization
+- Relational database design
+- API validation
+- Testing
+- Containerized development
+- Automated delivery workflows
+
+**Repository:** [airbnb-backend](https://github.com/aadehe/airbnb-backend)
+
+---
+
+### Cloud Platform Engineering
+
+**AWS · Terraform · Kubernetes · CI/CD**
+
+A cloud-native infrastructure project focused on designing and automating a production-style application platform on AWS.
+
+Planned engineering areas include:
+
+- AWS networking and VPC architecture
+- Infrastructure as Code with Terraform
+- Containerized workloads
+- Kubernetes
+- Managed databases
+- IAM and security controls
+- CI/CD automation
+- Environment separation
+- Observability
+- Infrastructure testing and operational documentation
+
+**Status:** Building
+
+---
+
+## Engineering Principles
+
+### Automate what should not be manual
+
+Repeatable operational work should become reliable, version-controlled automation.
+
+### Infrastructure is a product
+
+Infrastructure should be designed, reviewed, tested, documented, and maintained with the same discipline as application software.
+
+### Design for failure
+
+Failures are inevitable. Systems should provide clear failure boundaries, observability, recovery paths, and safe degradation.
+
+### Build for operability
+
+A system is not production-ready simply because it works. It should be observable, diagnosable, deployable, recoverable, and maintainable.
+
+### Prefer simple systems that can evolve
+
+Start with a clear architecture and introduce additional complexity only when the system genuinely requires it.
+
+---
+
+## Professional Focus
+
+My current engineering focus is becoming a **DevOps engineer who specializes in backend engineering and cloud-native systems**.
+
+I am particularly interested in building platforms that combine:
+
+**Software Engineering + Cloud Infrastructure + Automation + Reliability + Security**
+
+My long-term goal is to design and operate systems that are not only functional, but also **scalable, observable, secure, and operationally reliable**.
 
 ---
 
 ## Certifications & Education
-&lt;!-- TODO --&gt;
 
-## Contact
+- **Master's in Information Security and Digital Forensics** — University of East London
+- **Kubernetes and Cloud Native Associate (KCNA)**
+- **Certified Kubernetes Application Developer (CKAD)** — In Progress
 
-- **LinkedIn:** www.linkedin.com/in/albert-adehe-0ab0ba34
-- **X:** @aadehe
+---
+
+## Connect
+
+- **LinkedIn:** [Albert ADEHE](https://www.linkedin.com/in/albert-adehe-0ab0ba34)
+- **GitHub:** [aadehe](https://github.com/aadehe)
 - **Email:** aadehe@gmail.com
 
-Open to discussing infrastructure challenges, DevOps transformations, and backend
-architecture. For consulting or collaboration inquiries, please reach out via
-LinkedIn or email.
+Open to opportunities and conversations around **DevOps, backend engineering, cloud-native platforms, infrastructure engineering, and distributed systems**.
