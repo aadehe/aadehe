@@ -1,6 +1,6 @@
 # Albert ADEHE
 
-**Senior DevOps Engineer · Backend Engineering · Cloud-Native Systems**
+**DevOps Engineer · Backend Engineering · Cloud-Native Systems**
 
 I am a systems and DevOps engineer focused on designing, building, and operating reliable technology platforms and backend systems.
 
